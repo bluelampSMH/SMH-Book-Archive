@@ -1,0 +1,22 @@
+.admin-shell { max-width: 1120px; }
+.admin-main { min-height: calc(100dvh - 190px); padding: 72px 0 84px; }
+.admin-main > section { max-width: 720px; }
+.admin-main .admin-login { max-width: 440px; margin: 0 auto; }
+.admin-main .eyebrow { color: var(--muted); margin: 0 0 24px; }
+.admin-main h1 { font-family: var(--font-editorial); font-size: clamp(30px, 5vw, 44px); font-weight: 400; letter-spacing: -.04em; margin: 0 0 22px; }
+.admin-copy { font-size: 13px; line-height: 1.9; color: var(--muted); word-break: keep-all; }
+.admin-form { display: flex; flex-direction: column; margin-top: 36px; border-top: 1px solid var(--line); padding-top: 26px; }
+.admin-form label { font-size: 12px; margin-bottom: 10px; }
+.admin-form input { width: 100%; padding: 13px 12px; margin-bottom: 24px; border: 1px solid var(--line); border-radius: 0; background: #ffffff30; color: var(--foreground); font: inherit; font-size: 16px; }
+.admin-form input:focus-visible, .admin-button:focus-visible { outline: 2px solid #80674d; outline-offset: 3px; }
+.admin-button { padding: 14px 24px; border: 1px solid var(--foreground); background: var(--foreground); color: var(--background); font: inherit; font-size: 12px; cursor: pointer; border-radius: 0; }
+.admin-button:disabled { opacity: .6; cursor: wait; }
+.admin-button-outline { background: transparent; color: var(--foreground); }
+.admin-message { color: #8b3b2e; font-size: 12px; line-height: 1.8; overflow-wrap: anywhere; }
+.admin-message:empty { display: none; }
+.admin-footnote { margin-top: 22px; font-size: 11px; line-height: 1.9; color: var(--muted); }
+.admin-records { margin: 36px 0 48px; }
+.admin-next { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 30px 0; }
+.admin-next h2 { font-family: var(--font-editorial); font-size: 25px; font-weight: 400; margin: 18px 0 12px; }
+.admin-actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 30px; }
+@media (max-width: 600px) { .admin-main { padding: 44px 0 56px; } .admin-records > div { grid-template-columns: 85px minmax(0, 1fr); gap: 12px; } }

@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-:root { --background: #f5f2e9; --foreground: #292a25; --muted: #716f65; --line: #d9d5c9; --font-editorial: Georgia, "Times New Roman", "Noto Serif KR", "Nanum Myeongjo", "AppleMyungjo", "Batang", serif; }
+:root { --background: #ffffff; --foreground: #292a25; --muted: #716f65; --line: #d9d5c9; --font-editorial: Georgia, "Times New Roman", "Noto Serif KR", "Nanum Myeongjo", "AppleMyungjo", "Batang", serif; }
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -33,7 +33,7 @@ em { font-weight: 400; font-style: normal; }
 .section-heading h2 span { font-size: 10px; color: var(--muted); margin-left: 9px; }
 .section-heading p { font-size: 11px; color: var(--muted); margin: 0; }
 .book-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 54px 30px; }
-.cover-stage { aspect-ratio: 4 / 5; display: flex; align-items: center; justify-content: center; background: #eae6dc; padding: 25px 23px; }
+.cover-stage { aspect-ratio: 4 / 5; display: flex; align-items: center; justify-content: center; background: #f5f5f2; padding: 25px 23px; }
 .book-cover { width: 100%; height: 100%; padding: 16px 15px 12px; display: flex; flex-direction: column; justify-content: space-between; border-left: 3px solid #00000012; }
 .cover-category { font-size: 7px; line-height: 1.5; letter-spacing: 1.1px; text-transform: uppercase; }
 .cover-title-group { display: flex; flex-direction: column; gap: 13px; margin: 15px 0; }
@@ -149,9 +149,9 @@ em { font-weight: 400; font-style: normal; }
 .detail-heading > p, .detail-heading > a { font-size: 11px; color: var(--muted); }
 .gallery-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 30px; }
 .gallery-grid figure { margin: 0; }
-.gallery-frame { aspect-ratio: 4 / 3; background: #eae6dc; }
-.gallery-frame-1, .gallery-frame-4 { background: #e4e0d5; }
-.gallery-frame-2 { background: #e7e3d9; }
+.gallery-frame { aspect-ratio: 4 / 3; background: #f5f5f2; }
+.gallery-frame-1, .gallery-frame-4 { background: #f1f1ee; }
+.gallery-frame-2 { background: #f3f3f0; }
 .gallery-frame img { width: 100%; height: 100%; object-fit: contain; }
 .gallery-placeholder { width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 12px; color: var(--muted); font-size: 12px; }
 .gallery-placeholder-number { font-family: Georgia, serif; font-size: 40px; color: #a7a091; }
